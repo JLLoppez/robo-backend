@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @CrossOrigin("http://localhost:3000")
-@RequestMapping(path= "api/robofriend")
+//@RequestMapping(path= "api/robofriend")
 public class roboController {
 	
 	private final RoboService roboService;
