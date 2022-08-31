@@ -7,10 +7,6 @@ import javax.persistence.Id;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
-/**
- *
- * @author abiliolopes
- */
 @Entity
 @Table
 public class robos {

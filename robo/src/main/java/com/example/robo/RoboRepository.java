@@ -14,8 +14,6 @@ import org.springframework.stereotype.Repository;
 public interface RoboRepository
 	extends JpaRepository<robos, Long> {
 
-    public void saveAll(robos robos);
-
     public void saveAll(robos abilio, robos elineth, robos oliveira, robos ceuma, robos carlos, robos gillin, robos ary, robos jor, robos kur, robos cle);
 
 }
