@@ -80,8 +80,7 @@ public class RoboConfig {
                             "Moriah.Stanton",
                             "ey.Padberg@karina.biz"
                     );
-                    repository.saveAll(
-                            List.of(abilio, elineth,oliveira,ceuma, carlos,gillin, ary,jor,kur,cle));
+                    repository.saveAll(abilio, elineth,oliveira,ceuma, carlos,gillin, ary,jor,kur,cle);
                 };
 		
 	}
