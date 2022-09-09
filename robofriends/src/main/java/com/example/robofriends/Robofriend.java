@@ -1,5 +1,6 @@
 package com.example.robofriends;
 
+import java.io.Serializable;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -8,8 +9,8 @@ import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
 @Entity
-@Table
-public class Robofriend {
+@Table(name="Robos")
+public class Robofriend implements Serializable {
 	
 	@Id
 	@SequenceGenerator(
@@ -26,6 +27,9 @@ public class Robofriend {
 	private String name;
 	private String username;
 	private String email;
+
+    public Robofriend() {
+    }
 	
 	public Robofriend(Long id, String name, String username, String email) {
 		super();
