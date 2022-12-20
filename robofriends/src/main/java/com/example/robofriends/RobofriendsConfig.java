@@ -1,6 +1,8 @@
 package com.example.robofriends;
 
 
+import java.util.List;
+
 import org.springframework.boot.CommandLineRunner;
 
 import org.springframework.context.annotation.Bean;
@@ -72,7 +74,7 @@ public class RobofriendsConfig {
 							"ey.Padberg@karina.biz"
 					);
 					
-					repository.saveAll(abilio, 
+					repository.saveAll(List.of(abilio, 
 									elineth, 
 									oliveira, 
 									ceuma, 
@@ -81,7 +83,7 @@ public class RobofriendsConfig {
 									ary, 
 									jor, 
 									kur, 
-									cle
+									cle)
 					);
 		};
 		
