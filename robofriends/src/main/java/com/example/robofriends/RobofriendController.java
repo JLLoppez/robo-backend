@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
     @RestController
 	@CrossOrigin("https://robfriends.netlify.app")
-    @RequestMapping(path="api/robofriend")
+    @RequestMapping(path="https://robo-backend.azurewebsites.net")
 	public class RobofriendController{
 			private final RobofriendService robofriendService;
 			
